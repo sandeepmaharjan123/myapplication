@@ -18,6 +18,7 @@ public class calculator extends AppCompatActivity implements View.OnClickListene
     int num1,num2;
     int res;
     String op;
+    int a;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -97,8 +98,6 @@ public class calculator extends AppCompatActivity implements View.OnClickListene
                 displayNum += 9;
                 text.setText(displayNum);
                 break;
-
-
 
         }
     }
